@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        #shy{
+            width: 150px;
+            border-radius: 50%;
+        }
+        figure{
+            display: flex;
+            align-items: center;
+            margin: 5px;
+        }
+        figcaption{
+            font-size: 10px;
+            margin: 10px;
+        }
+        article{
+            font-size: 18px;
+        }
+        .inline{
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+        .inline h2{
+            margin-right: 10px;
+        }
+        article{
+            border: 1px solid black;
+            width: 500px;
+            padding: 5px;
+            background-color: white;
+        }
+        header{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .main{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        body{
+            background-image: url(https://img.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_58702-3798.jpg?w=360);
+            background-repeat: no-repeat;
+            background-size: 200%;
+            margin-top: 50px;
+        }
+        nav{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+            margin: 10px;
+        }
+        nav ul li{
+            margin: 5px;
+            list-style-type: none;
+            border: 1px solid black;
+            border-radius: 5px;
+            padding: 0 5px;
+            background-color: #8e8e8e;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: rgba(0, 0, 0, 0.671);
+        }
+        nav ul li:hover{
+            background-color: #b8b8b8;
+        }
+        nav ul li a:hover{
+            color: rgb(22, 39, 194);
+        }
+        .know{
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .know form p{
+            margin: 5px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .know form{
+            display: flex;
+            flex-direction: column;
+            align-content: space-between;
+            width: fit-content;
+        }
+        .flex select{
+            width: 173px;
+        }
+        td{
+            border: 1px solid black;
+            padding: 10px;
+            border-radius: 50%;
+            width: 70px;
+        }
+        tr{
+            height: 40px;
+        }
+        table{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .see{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .see img{
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Chow Yue Fong</h1>
+        <figure>
+            <img id="shy" src="https://static1.squarespace.com/static/5ceafa407824f80001793b84/5ceafcab6e9a7f68cda0e90b/600cc34ce0a5aa5e485ed51a/1649043574687/shy-blog.jpg?format=1500w" alt="shy">
+            <figcaption>I'm shy</figcaption>
+        </figure>
+    </header>
+    <main>
+        <div class="main">
+            <div class="inline">
+                <h2>About Me</h2>
+                <p>20/4/2023</p>
+            </div>
+            <article>
+                I am 18 years old. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam necessitatibus quam dicta repellendus! Mollitia, suscipit tempora illo officiis ipsum nostrum, amet minus eveniet nisi voluptatem quaerat iste laborum, quia possimus? Rem rerum cupiditate dolorem sunt, ipsum sint, perferendis quae expedita repellendus tempora numquam, quia necessitatibus molestiae similique libero omnis sit.
+            </article>
+        </div>
+        <div class="know">
+            <h2>Let's Get To Know Each Other</h2>
+            <form action="/register">
+                <p class="flex">Name: <input type="text"></p>
+                <p class="flex">Nickname: <input type="text"></p>
+                <p class="flex">Interests: 
+                    <select name="interests">
+                        <option value="movies">Movies</option>
+                        <option value="games">Video Games</option>
+                        <option value="eat">Eating</option>
+                        <option value="other">Others</option>
+                    </select>
+                </p>
+            </form>
+        </div>   
+        <div class="see">
+            <img src="https://e1.pxfuel.com/desktop-wallpaper/354/810/desktop-wallpaper-aaryh-owo-on-twitter-ayane-overflow.jpg" alt="pic">
+            <table>
+                <tr>
+                    <td><b>.</b></td>
+                    <td><b>.</b></td>
+                </tr>
+            </table>
+            <div></div>
+        </div> 
+    </main>
+    <footer>
+        <nav>
+            <h2>My Contacts</h2>
+            <ul>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Facebook</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
