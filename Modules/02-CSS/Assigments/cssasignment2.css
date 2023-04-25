@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.breadcrumb {
+    padding: 10px;
+    background-color: #b8b8b8;
+    list-style-type: none;
+    margin: 10px;
+    padding: 5px 25px;
+}
+
+.breadcrumb li {
+    display: inline;
+}
+
+.breadcrumb li a {
+    color: blue;
+}
+
+.li:before {
+    content: '/';
+    padding: 0 20px;
+}
+
+.info {
+    font-weight: bold;
+}
