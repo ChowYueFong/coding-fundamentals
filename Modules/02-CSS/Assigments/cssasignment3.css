@@ -1,0 +1,25 @@
+.menu {    
+    /* Style for menu button */
+    font-size: 20px;
+  }
+  
+  .submenu {    
+    /* Hide submenu */
+    display: none;
+  }
+
+  .submenu-item {
+    background-color: #bdbdbd;
+    display: block;
+    width: 150px;
+    padding: 10px 15px;
+  }
+
+  .submenu-item:hover {
+    background-color: #8e8e8e;
+  }
+  
+  .menu:hover .submenu {    
+    /* Show submenu on hover */
+    display: block;
+  }
