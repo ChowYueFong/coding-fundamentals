@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(21,76,121);
+    width: 100vw;
+    height: 25vh;
+    color: white;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.img {
+    text-align: center;
+}
+
+.img img {
+    border-radius: 5px;
+    width: 250px;
+    height: 175px;
+    object-fit: cover;
+}
+
+.text {
+    margin: 0 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text h1 {
+    margin-bottom: 30px;
+    font-size: 3rem;
+}
+
+.text p {
+    font-size: 15px;
+}
+
+.one {
+    margin: 10px;
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.img-one img {
+    border-radius: 10px;
+    object-fit: cover;
+    width: 400px;
+    height: 300px;
+}
+
+.cat-one {
+    margin: 30px 0 20px 0;
+    display: flex;
+    gap: 20px;
+}
+
+.cat-one div {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 15px;
+    padding: 2px 20px;
+}
+
+.desc-one {
+    margin: 30px 0;
+    width: 400px;
+}
+
+.info-one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #8e8e8e;
+}
+
+.info-one img {
+    width: 25px;
+    height: 25px;
+    border-radius: 9999px;
+}
+
+.info-one-front {
+    display: flex;
+    align-items: center;
+}
+
+.info-one-front div {
+    margin-left: 10px;
+}
+
+@media (max-width: 639px) {
+
+    .info-one {
+        display: none;
+    }
+    
+    .date {
+        display: none;
+    }
+    
+    .one {
+        margin-bottom: 0;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        border: 2px solid #8e8e8e;
+        border-radius: 20px;
+        width: 75vw;
+        height: fit-content;
+        overflow: hidden;
+    }
+
+    header {
+        height: fit-content;
+    }
+
+    .img img {
+        display: none;
+    }
+
+    .img-one img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+
+    .mobile {
+        float: left;
+        margin-right: 10px;
+    }
+
+    .desc-one {
+        display: none;
+    }
+}
