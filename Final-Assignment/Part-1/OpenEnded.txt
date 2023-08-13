@@ -1,0 +1,22 @@
+1. We can use loops to save us time, so that the same code/programme does not have to be written multiple times.
+Basically, we can use it to do repetitive work for a set amount of times or until it mets a certain condition.
+For instance, we can use it to look through each item in an array of fruits and display it on the console to see what fruits are in the array.
+A basic for loop can be written as follows, " for (let i = 0; i < 10; i++) {} "
+
+2. One big difference between "console.log" and "return" is that, whatever is console.logged will appear in the console, while whatever that is only returned will not appear in the console.
+Secondly, console.logging any data and declaring it into a variable "undefined" appears in the console if the variable is console.logged, while returning any data and declaring it into a variable will show the data in the console if the variable is console.logged.
+To put it simply, "console.log" does not store/save data while "return" will store/save the data.
+
+3. Truthy values are values that will return true when the values are passed into the "Boolean()" built-in JavaScript function.
+Falsy values are values that will return false when the values are passed into the "Boolean()" built-in JavaScript function.
+"false", "0", "-0", "" <-- (empty string), "null", "undefined", "NaN" <-- (Not a number) are all falsy values, any other values are considered truthy.
+
+4. Computers are connected through wires and cables or wirelessly through "Wi-Fi" also known as "Wireless Fidelity".
+Data from each computer are shared through wires and cables as pulses of light or electricity called "bits".
+Data from each computer are also shared using Wi-Fi by transmitting radio waves to the router.
+For example, as the user, we make a request and the request is converted into binary code, the language our computer uses.
+After that, the binary code is translated into wave frequencies and recieved by our Wi-Fi router.
+Finally, the same process happens but the Wi-Fi router is returning the data in the form of radio waves and are translated by our computer into our request.
+
+5. A very basic website usually consists of a Hypertext Markup Language (HTML) file, Cascading Style Sheets (CSS) file and a JavaScript file.
+These 3 types of file are linked to make a website, the HTML file is the structure of the page, while the CSS file is like the "makeup" of the page while the JavaScript file is the brain of the page.
